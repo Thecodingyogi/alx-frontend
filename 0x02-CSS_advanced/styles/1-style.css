@@ -1,3 +1,5 @@
+/*This file ensures there is effortless transitions
+when scrolling*/
 html {
   scroll-behavior: smooth;
 }
