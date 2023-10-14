@@ -441,7 +441,7 @@ a:active {
   text-align: center;
 }
 
-.navbar-menu .nav .nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -450,11 +450,11 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.navbar-menu .nav .nav-item .nav-link {
+.nav .nav-item .nav-link {
   display: block;
   padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 
-.navbar-menu .nav .nav-item .nav-link:hover {
+.nav .nav-item .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
