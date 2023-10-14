@@ -434,14 +434,14 @@ a:active {
   float: right;
 }
 
-.nav {
+.navbar-menu .nav {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
 
-.nav .nav-item {
+.navbar-menu .nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -450,11 +450,11 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+.navbar-menu .nav .nav-item .nav-link {
   display: block;
   padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 
-.nav .nav-link:hover {
+.navbar-menu .nav .nav-item .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
