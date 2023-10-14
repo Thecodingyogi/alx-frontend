@@ -441,7 +441,8 @@ a:active {
   text-align: center;
 }
 
-.nav .nav-item {
+.nav,
+.nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -450,11 +451,15 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav-item .nav-link {
+.nav,
+.nav-item,
+.nav-link {
   display: block;
   padding: calc(0.5 * var(--font-size-medium)) var(--font-size-medium);
 }
 
-.nav .nav-item .nav-link:hover {
+.nav,
+.nav-item,
+.nav-link:hover {
   color: var(--nav-item-link-hover);
 }
