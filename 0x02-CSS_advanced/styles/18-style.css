@@ -426,10 +426,6 @@ a:active {
   margin-right: auto;
 }
 
-.footer {
-  padding: var(--footer-padding);
-}
-
 .navbar-menu {
   float: right;
 }
@@ -455,6 +451,10 @@ a:active {
   padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 
-.nav .nav-link .nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
+}
+
+.footer {
+  padding: var(--footer-padding);
 }
