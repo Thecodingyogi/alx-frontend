@@ -455,6 +455,7 @@ a:active {
   padding: calc(0.5 * var(--font-size-medium)) var(--font-size-medium);
 }
 
-.nav-link:hover .nav-link {
+.nav-link:hover,
+.nav-link {
   color: var(--nav-item-link-hover);
 }
