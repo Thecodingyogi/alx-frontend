@@ -467,7 +467,8 @@ ul.row {
   list-style: none;
 }
 
-[class^="col-"] {
+[class^="col-"],
+[class*="col-"] {
   float: left;
   padding: calc(0.5 * var(--font-size-medium));
 }
