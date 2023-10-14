@@ -450,11 +450,11 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+.nav-item .nav-link {
   display: block;
   padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 
-.nav .nav-link:hover {
+.nav-item .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
