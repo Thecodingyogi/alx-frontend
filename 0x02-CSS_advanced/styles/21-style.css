@@ -467,6 +467,11 @@ ul.row {
   list-style: none;
 }
 
+[class^="col-"] {
+  float: left;
+  padding: calc(0.5 * var(--font-size-medium));
+}
+
 .col-1-3 {
   width: 33.33%;
   float: left;
@@ -493,9 +498,4 @@ ul.row {
   content: "";
   display: table;
   clear: both;
-}
-
-[class^="col-"] {
-  float: left;
-  padding: calc(0.5 * var(--font-size-medium));
 }
