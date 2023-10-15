@@ -335,7 +335,7 @@ template {
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 calc(3 * var(--root-font-size)) 0;
+  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
 }
 
@@ -455,6 +455,6 @@ a:active {
   padding: calc(0.5 * var(--root-font-size)) var(--root-font-size);
 }
 
-.nav .nav-link:hover {
+.nav .nav-item:hover .nav-link {
   color: var(--nav-item-link-hover);
 }
