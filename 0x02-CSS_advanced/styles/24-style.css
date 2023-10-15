@@ -524,7 +524,7 @@ ul.row {
 
 .card-services a {
   display: block;
-  padding: 200%;
+  padding: calc(2 * var(--font-size-base));
   background-color: var(--color-light-grey);
 }
 
