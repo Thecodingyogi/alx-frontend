@@ -522,9 +522,9 @@ ul.row {
   margin: 0;
 }
 
-.card-services a:link {
+.card-services a {
   display: block;
-  padding: calc(2 * var(--font-size-base));
+  padding: 200% 0;
   background-color: var(--color-light-grey);
 }
 
